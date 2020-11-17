@@ -22,8 +22,8 @@
             
             <div class="link-handler">
                 <a href="../Main/main.html">Home</a>
-                <a href="#">Reviews</a>
                 <a href="../newsPage.html">News</a>
+                <a href="../reviewPage.html">Reviews</a>
                 <a href="./product.html" class="active">Inquiry</a>
                 <a href="../AboutUs/About.html">About us</a>
             </div>
@@ -31,7 +31,7 @@
         </div>
         
         
-        <h1>Product Inquiry</h1>
+        <h1 id="inquiry">Product Inquiry</h1>
         
         <div class="container">
             <form>
@@ -53,16 +53,16 @@
             </form>
 ​
         </div>
-​
-        
-        
+​   
     </div>
 
     <script>
         function confirmMsg() {
             if (confirm("Are you sure you want to submit the form?")) {
                 document.getElementById("form-id").submit();
-            } return false;
+            } else {
+                return false;
+            }
         }
     </script>
 

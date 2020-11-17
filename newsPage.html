@@ -24,46 +24,46 @@
             
         <!-- </div> -->
         
-            <nav class="nav">
-                <a href="./Main//main.html" class="link">Main</a>
-                <a href="./newsPage.html" class="link">News</a>
-                <a href="" class="link">Reviews</a>
-                <a href="./Products/product.html" class="link">Products</a>
-                <a href="" class="link">About</a>
-            </nav>
+        <nav class="nav">
+            <a href="./Main/main.html" class="link">Main</a>
+            <a href="./newsPage.html" class="link">News</a>
+            <a href="./reviewPage.html" class="link">Reviews</a>
+            <a href="./Products/product.html" class="link">Products</a>
+            <a href="./AboutUs/About.html"class="link">About</a>
+        </nav>
 
-            <div class="add-news">
-                <h1>Add A News Story</h1>
-                <input type="text" name=""  placeholder="Image Link" id="img-input">
-                <input type="text" name=""  placeholder="Heading" id="heading-input">
-                <input type="text" name=""  placeholder="SubHeading" id="sub-input">
-                <textarea name=""  cols="30" rows="10" id="info-input"></textarea>
-                <button onClick= addStory()>Add</button>
+        <div class="add-news">
+            <h1>Add A News Story</h1>
+            <input type="text" name=""  placeholder="Image Link" id="img-input">
+            <input type="text" name=""  placeholder="Heading" id="heading-input">
+            <input type="text" name=""  placeholder="SubHeading" id="sub-input">
+            <textarea name=""  cols="30" rows="10" id="info-input"></textarea>
+            <button onClick= addStory()>Add</button>
 
-            </div>
+        </div>
 
-            <div id="news">
-                <div class="news-card">
-                    <div class="news-info">
-                        <img src="./dronePic.jpeg" alt="picture of amazon drone" class="news-img">
-                        <h1>Sum stuff</h1>
-                        <h2>Sub heading</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ad ratione aspernatur in modi asperiores error dolore. Minus assumenda laudantium ullam culpa a expedita et at commodi. Ipsum, iure culpa!</p>
-                        <button onclick="delStory(this)" id="del">Delete</button>
+        <div id="news">
+            <div class="news-card">
+                <div class="news-info">
+                    <img src="./dronePic.jpeg" alt="picture of amazon drone" class="news-img">
+                    <h1>Amazon’s Drone Delivery Fleet Hits Milestone With FAA Clearance</h1>
+                    <h2>Company Joins Wing and UPS to Receive Certification</h2>
+                    <p>Retail behemoth Amazon­.com Inc. took a big leap toward delivering goods from the sky by becoming one of only a handful of companies certified by the U.S. government to operate as a drone airline.</p>
+                    <button onclick="delStory(this)" id="del">Delete</button>
                         
-                    </div>
-                </div>
-                <div class="news-card">
-                    <div class="news-info">
-                        <img src="./dronePic.jpeg" alt="picture of amazon drone" class="news-img">
-                        <h1>Sum stuff</h1>
-                        <h2>Sub heading</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ad ratione aspernatur in modi asperiores error dolore. Minus assumenda laudantium ullam culpa a expedita et at commodi. Ipsum, iure culpa!</p>
-                        <button onclick="delStory(this)">Delete</button>
-                        
-                    </div>
                 </div>
             </div>
+            <div class="news-card">
+                <div class="news-info">
+                    <img src="./dronePic.jpeg" alt="picture of amazon drone" class="news-img">
+                    <h1>Check out Amazon's wild hybrid Prime Air drone that will start delivering soon</h1>
+                    <h2>The Future is now</h2>
+                    <p>While at its Re:MARS conference, the company unveiled a hybrid unmanned aerial vehicle capable of vertical takeoff and landing and sustained forward flight. The drone features thermal cameras, depth cameras, and sonar. It also uses machine learning models and onboard computers.</p>
+                    <button onclick="delStory(this)">Delete</button>
+                        
+                </div>
+            </div>
+        </div>
                 
         <script src="./newsPage.js"></script>
     </body>

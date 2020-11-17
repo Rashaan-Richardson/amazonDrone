@@ -179,7 +179,7 @@ img.drone_del {
     }
 
 img.drone_spec {
-    width: 76%;
+    width: 75%;
     }
 
 /* Footer */
@@ -223,9 +223,6 @@ img.drone_spec {
     padding: 14px 0;
 }
     
-.navbar,
-
-.logo-handler,
 
 .link-handler {
     width: 100%;
@@ -258,7 +255,6 @@ img.drone_spec {
 }
 
 #inquiry {
-    margin: 0;
     line-height: 0;
 }
 
@@ -297,6 +293,7 @@ input[type=submit]:hover {
 width: 50%;
 height: 50%;
 border: 2px solid #2b468b;
+border-radius: 4px;
 }
 .Employees {
 align-items: center;
@@ -309,3 +306,11 @@ display: flex;
 flex-direction: column;
 margin: 20px;
 }
+
+.text-fix {
+    display: block;
+    width: 80%;
+    padding: 0 30px 0 0;
+    margin: 0 auto;
+    text-align: center;
+    }
